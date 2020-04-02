@@ -1,0 +1,49 @@
+/* media query for screen size to be applied to center text to switch at same time as navbar */
+@media (max-width: 768px) {
+    .container-fluid {
+      /* removes paddding on either side */
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+  /* removes verticle lines between text */
+    li {
+      border-right: none;
+    }
+  
+  /* collapses space between menu options when they stack vertically*/
+    .nav-link{
+      padding: 1px;
+    }
+  }
+  
+  .product {
+    width: 210px;
+    height: 140px;
+    margin: 10px;
+    float: left;
+  }
+  
+  .image-formatter {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -30px;
+  }
+  
+  .product-label {
+    position: relative;
+    margin: 0;
+    top: 100px;
+    width: 210px;
+    padding: 5px 0;
+    font-size: 10px;
+    background-color: #4C7684;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .center {
+    text-align: center;
+  }
